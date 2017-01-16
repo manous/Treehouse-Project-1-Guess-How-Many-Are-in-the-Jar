@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Random;
-class Jar{
+public class Jar{
 //declare variables  
 private String itemName;
 private int maxItems;
@@ -30,7 +30,7 @@ public Jar(String itemName, int maxItems ){
 //prompt administrator to enter the type and max numbers of items
  public void identifyItems(){
   boolean isAcceptable=false; 
-
+  boolean isCorrectNum=false;
  System.out.println("ADMINISTRATOR SETUP");
  System.out.println("--------------------");
   do{
